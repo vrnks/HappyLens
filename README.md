@@ -20,16 +20,16 @@
 HappyLens/
 ├── cli/                       # CLI tool for country recommendation
 │   └── main.py
-├── data/                     # Raw datasets and preprocessing notebook
+├── data/                      # Raw datasets and preprocessing notebook
 │   ├── World Happiness Report.csv
 │   ├── happiness_data.csv
 │   └── data_preprocessing.ipynb
-├── data_analysis/            # EDA and clustering
+├── data_analysis/             # EDA and clustering
 │   └── data_analysis.ipynb
-├── model_what_if/            # Happiness prediction models
+├── model_what_if/             # Happiness prediction models
 │   └── happiness_predictor.ipynb
 ├── README.md
-├── requirements.txt         # Python dependencies
+├── requirements.txt           # Python dependencies
 ```
 
 ## Features
