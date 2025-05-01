@@ -20,7 +20,7 @@
 HappyLens/
 ├── cli/                       # CLI tool for country recommendation
 │   └── main.py
-├── data/                      # Raw datasets and preprocessing notebook
+├── data/                      # Raw dataset and preprocessing notebook
 │   ├── World Happiness Report.csv
 │   ├── happiness_data.csv
 │   └── data_preprocessing.ipynb
