@@ -25,7 +25,7 @@ HappyLens/
 │   ├── World Happiness Report.csv
 │   ├── happiness_data.csv
 │   └── data_preprocessing.ipynb
-│   └──clustered_happiness.csv
+│   └── clustered_happiness.csv
 ├── data_analysis/             # EDA and clustering
 │   └── data_analysis.ipynb
 ├── README.md
