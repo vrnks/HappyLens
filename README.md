@@ -65,9 +65,7 @@ HappyLens/
 
 You can explore the dashboard either by:
 
-* Opening the hosted app via this link:
-
-[Happy Map](https://happymap.streamlit.app)
+* Opening the hosted app via this link: 		[Happy Map](https://happymap.streamlit.app)
 
 * Or running it locally from code:
 
