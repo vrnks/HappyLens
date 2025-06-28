@@ -8,11 +8,11 @@ st.title("🌍 HappyMap — Country Clustering and Personalized Ranking")
 # --- Load data ---
 @st.cache_data
 def load_clustered_data():
-    return pd.read_csv("/Users/admin/Desktop/Projects/HappyLens/data/clustered_happiness.csv")
+    return pd.read_csv("./data/clustered_happiness.csv")
 
 @st.cache_data
 def load_happiness_data():
-    df = pd.read_csv("/Users/admin/Desktop/Projects/HappyLens/data/happiness_data.csv")
+    df = pd.read_csv("./data/happiness_data.csv")
     df = df[df["Year"] == 2024]
     df = df.drop(columns=["Year", "Rank", "upperwhisker", "lowerwhisker"])
     return df
