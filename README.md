@@ -67,7 +67,7 @@ You can explore the dashboard either by:
 
 * Opening the hosted app via this link:
 
-https://happymap.streamlit.app 
+[Happy Map](https://happymap.streamlit.app)
 
 * Or running it locally from code:
 
