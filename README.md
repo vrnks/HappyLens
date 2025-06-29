@@ -56,8 +56,6 @@ HappyLens/
 - The CLI tool personalizes recommendations based on user preferences and subjective factor weights.
 - Streamlit dashboard offers intuitive interface for exploring clusters and customizing rankings.
 
-![alt text](image.png)
-
 
 ## How to Use
 
