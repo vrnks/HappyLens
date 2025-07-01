@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-**HappyLens** is a data science project designed to explore happiness levels across countries, visualize patterns, and predict national happiness scores. Using real data from the World Happiness Report, the project  combines data analysis, machine learning, and a user-friendly CLI tool for country recommendation.
+**HappyLens** is a data science project designed to explore happiness levels across countries and visualize patterns. Using real data from the World Happiness Report, the project combines data analysis, cluster analysis, correlation analysis and a user-friendly CLI tool for country recommendation.
 
 
 ## Objectives
@@ -11,7 +11,6 @@
 - Understand global happiness trends using historical data.
 - Explore and visualize factors influencing happiness across the world.
 - Cluster countries based on key well-being indicators.
-- Build a model to predict happiness scores using multiple regression models (e.g., for Ukraine).
 - Recommend top countries to users based on customized priorities.
 
 ## Project Structure
@@ -20,14 +19,15 @@
 HappyLens/
 ├── cli/                       # CLI tool for country recommendation
 │   └── main.py
+├── dashboard/                 # Streamlit dashboard code
+│   └── app.py
 ├── data/                      # Raw dataset and preprocessing notebook
 │   ├── World Happiness Report.csv
 │   ├── happiness_data.csv
 │   └── data_preprocessing.ipynb
+│   └──clustered_happiness.csv
 ├── data_analysis/             # EDA and clustering
 │   └── data_analysis.ipynb
-├── model_what_if/             # Happiness prediction models
-│   └── happiness_predictor.ipynb
 ├── README.md
 ├── requirements.txt           # Python dependencies
 ```
@@ -36,38 +36,51 @@ HappyLens/
 
 - **Exploratory Data Analysis (EDA)**: PCA, correlation matrix, visual summaries.
 - **Clustering**: KMeans-based grouping of countries by happiness-related features.
-- **Prediction Models**: Four machine learning regressors to predict happiness scores.
 - **Interactive CLI Tool**: Users assign importance (weights) to happiness factors and receive a ranked list of recommended countries.
 - **Feature Engineering**: Removal of irrelevant features. Standardization via StandardScaler. PCA applied before clustering.
+- **Streamlit Dashboard**: Visualizes clustered countries on an interactive map, shows cluster descriptions, and allows personalized ranking via sliders.
 
 
 ## Tech Stack
 
 - **Language**: Python 3
-- **Jupyter Notebook** for analysis and modeling
+- **Jupyter Notebook**
 - **Data**: World Happiness Report 2024
-- **ML Models**:
-  - `RandomForestRegressor`
-  - `LinearRegression`
-  - `GradientBoostingRegressor`
-  - `XGBRegressor` (via `xgboost`)
-- **Libraries**: `pandas`, `matplotlib`, `seaborn`, `plotly`, `scikit-learn`, `xgboost`, `argparse`
+- **Libraries**: `pandas`, `matplotlib`, `seaborn`, `plotly`, `scikit-learn`, `streamlit`
 
 
 ## Results
 
-- Clustered countries into 3 groups based on well-being metrics.
+- Clustered countries into 4 groups based on well-being metrics.
 - Interactive map of happiness: created with the help of Plotly, it allows to visually explore the level of happiness in countries around the world.
-- Ukraine's 2024 happiness score was predicted using trained regression models.
-- All four models successfully predicted happiness scores for 2024 with low error rates.
-- Feature importance analysis revealed the most influential factors.
-- Enabled simulations of “what-if” scenarios (e.g., increased GDP, improved social support).
 - The CLI tool personalizes recommendations based on user preferences and subjective factor weights.
+- Streamlit dashboard offers intuitive interface for exploring clusters and customizing rankings.
 
 ![alt text](image.png)
 
 
 ## How to Use
+
+### Streamlit Dashboard (Recommended)
+
+You can explore the dashboard either by:
+
+* Opening the hosted app via this link:
+
+url
+
+* Or running it locally from code:
+
+```bash
+cd HappyLens/dashboard
+streamlit run app.py
+```
+
+- Explore the interactive world map showing country clusters by happiness level.
+- View detailed descriptions of each cluster, including average scores and example countries.
+- Customize factor weights (GDP, Social Support, Life Expectancy, Freedom, Generosity, Corruption) via sliders to generate a personalized happiness ranking.
+- Browse countries by cluster with a clean table interface.
+- The dashboard combines visual insights and personalized recommendations in one easy-to-use web app.
 
 ### Country Recommendation CLI
 
@@ -103,12 +116,11 @@ Netherlands           7.306  5.723
 ```
 
 
-### Explore EDA and Modeling
+### Explore EDA
 
 Open the notebooks in Jupyter:
 
 - `data_analysis/data_analysis.ipynb`: Explore global patterns and clustering.
-- `model_what_if/happiness_predictor.ipynb`: Train and evaluate predictive models.
 
 
 ## Inspiration

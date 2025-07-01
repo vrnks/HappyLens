@@ -1,0 +1,139 @@
+Country,Cluster,iso_alpha
+Finland,2,FIN
+Denmark,2,DNK
+Iceland,2,ISL
+Sweden,2,SWE
+Netherlands,2,NLD
+Costa Rica,0,CRI
+Norway,2,NOR
+Israel,2,ISR
+Luxembourg,2,LUX
+Mexico,0,MEX
+Australia,2,AUS
+New Zealand,2,NZL
+Switzerland,2,CHE
+Belgium,2,BEL
+Ireland,2,IRL
+Lithuania,0,LTU
+Austria,2,AUT
+Canada,2,CAN
+Slovenia,2,SVN
+Czechia,0,CZE
+United Arab Emirates,2,ARE
+Germany,2,DEU
+United Kingdom,2,GBR
+United States,2,USA
+Belize,0,BLZ
+Poland,0,POL
+Uruguay,0,URY
+Kuwait,2,KWT
+Serbia,0,SRB
+Saudi Arabia,2,SAU
+France,2,FRA
+Singapore,2,SGP
+Romania,0,ROU
+Brazil,0,BRA
+El Salvador,0,SLV
+Spain,2,ESP
+Estonia,2,EST
+Italy,0,ITA
+Panama,0,PAN
+Argentina,0,ARG
+Kazakhstan,0,KAZ
+Guatemala,0,GTM
+Chile,0,CHL
+Viet Nam,0,VNM
+Nicaragua,0,NIC
+Malta,2,MLT
+Thailand,1,THA
+Slovakia,0,SVK
+Latvia,0,LVA
+Oman,0,OMN
+Uzbekistan,2,UZB
+Paraguay,0,PRY
+Japan,0,JPN
+Bosnia and Herzegovina,0,BIH
+Philippines,0,PHL
+Bahrain,2,BHR
+Portugal,0,PRT
+Colombia,0,COL
+Ecuador,0,ECU
+Honduras,1,HND
+Malaysia,1,MYS
+Peru,0,PER
+Cyprus,0,CYP
+China,0,CHN
+Hungary,0,HUN
+Trinidad and Tobago,0,TTO
+Montenegro,0,MNE
+Croatia,0,HRV
+Jamaica,0,JAM
+Bolivia,0,BOL
+Kyrgyzstan,1,KGZ
+Dominican Republic,0,DOM
+Mongolia,1,MNG
+Mauritius,0,MUS
+Libya,0,LBY
+Republic of Moldova,0,MDA
+Greece,0,GRC
+Venezuela,1,VEN
+Indonesia,1,IDN
+Algeria,0,DZA
+Bulgaria,0,BGR
+North Macedonia,0,MKD
+Armenia,0,ARM
+Albania,0,ALB
+Tajikistan,0,TJK
+Georgia,0,GEO
+Nepal,1,NPL
+Türkiye,0,TUR
+South Africa,0,ZAF
+Mozambique,1,MOZ
+Gabon,0,GAB
+Iran,1,IRN
+Congo,3,COG
+Iraq,3,IRQ
+Guinea,1,GIN
+Namibia,3,NAM
+Cameroon,3,CMR
+Nigeria,1,NGA
+Azerbaijan,0,AZE
+Senegal,1,SEN
+Pakistan,3,PAK
+Niger,3,NER
+Ukraine,1,UKR
+Morocco,3,MAR
+Tunisia,3,TUN
+Mauritania,3,MRT
+Kenya,1,KEN
+Uganda,1,UGA
+Gambia,1,GMB
+India,1,IND
+Chad,3,TCD
+Burkina Faso,3,BFA
+Benin,3,BEN
+Somalia,1,SOM
+Mali,3,MLI
+Cambodia,1,KHM
+Ghana,1,GHA
+Myanmar,1,MMR
+Togo,3,TGO
+Jordan,3,JOR
+Liberia,3,LBR
+Madagascar,3,MDG
+Zambia,1,ZMB
+Ethiopia,3,ETH
+Sri Lanka,1,LKA
+Bangladesh,3,BGD
+Egypt,3,EGY
+Tanzania,1,TZA
+Eswatini,3,SWZ
+Lesotho,3,LSO
+Comoros,3,COM
+Yemen,3,YEM
+Botswana,3,BWA
+Zimbabwe,3,ZWE
+Malawi,3,MWI
+Lebanon,3,LBN
+Sierra Leone,3,SLE
+Afghanistan,3,AFG
