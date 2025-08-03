@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(page_title="HappyMap", layout="wide")
-st.title("🌍 HappyMap — Country Clustering and Personalized Ranking")
+st.title("🌍 HappyMap - Country Clustering and Personalized Ranking")
 
 # --- Load data ---
 @st.cache_data
@@ -61,7 +61,7 @@ cluster_descriptions = {
 }
 
 # --- Cluster map ---
-st.subheader("🗺️ Country Clustering by Happiness Level")
+st.subheader("Country Clustering by Happiness Level")
 
 fig = px.choropleth(
     cluster_df,
